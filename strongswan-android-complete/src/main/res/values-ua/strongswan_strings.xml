@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2013 Pavel Kopchyk
+    Copyright (C) 2012 Dmitry Korzhevin
+
+    This program is free software; you can redistribute it and/or modify it
+    under the terms of the GNU General Public License as published by the
+    Free Software Foundation; either version 2 of the License, or (at your
+    option) any later version.  See <http://www.fsf.org/copyleft/gpl.txt>.
+
+    This program is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+    or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+    for more details.
+-->
+<resources>
+
+    <!-- Application -->
+    <string name="strongswan_app_name">strongSwan VPN клієнт</string>
+    <string name="strongswan_main_activity_name">strongSwan</string>
+    <string name="strongswan_show_log">Перегляд журналу</string>
+    <string name="strongswan_search">Пошук</string>
+    <string name="strongswan_vpn_not_supported_title">VPN не підтримуеться</string>
+    <string name="strongswan_vpn_not_supported">Ваш пристрій не підтримує VPN.\nЗв\'яжіться з виробником.</string>
+    <string name="strongswan_vpn_not_supported_during_lockdown">VPN з\'єднання не пітримується у режимі lockdown.</string>
+    <string name="strongswan_loading">Завантаження&#8230;</string>
+    <string name="strongswan_profile_not_found">Профіль не знайдено</string>
+    <string name="strongswan_strongswan_shortcut">strongSwan посилання</string>
+
+    <!-- Log view -->
+    <string name="strongswan_log_title">Журнал</string>
+    <string name="strongswan_send_log">Відправити файл журналу</string>
+    <string name="strongswan_empty_log">Журнал порожній</string>
+    <string name="strongswan_log_mail_subject">strongSwan %1$s файл журналу</string>
+
+    <!-- VPN profile list -->
+    <string name="strongswan_no_profiles">Немає VPN профілів</string>
+    <string name="strongswan_add_profile">Додати VPN профіль</string>
+    <string name="strongswan_edit_profile">Редагувати</string>
+    <string name="strongswan_delete_profile">Видалити</string>
+    <string name="strongswan_select_profiles">Обрати профіль</string>
+    <string name="strongswan_profiles_deleted">Обрані профілі видалено</string>
+    <string name="strongswan_no_profile_selected">Профіль не обрано</string>
+    <string name="strongswan_one_profile_selected">Один профіль обрано</string>
+    <string name="strongswan_x_profiles_selected">%1$d профілів обрано"</string>
+
+    <!-- VPN profile details -->
+    <string name="strongswan_profile_edit_save">Зберегти</string>
+    <string name="strongswan_profile_edit_cancel">Відміна</string>
+    <string name="strongswan_profile_name_label">Назва профілю:</string>
+    <string name="strongswan_profile_name_hint">(використовувати адресу шлюза)</string>
+    <string name="strongswan_profile_gateway_label">Шлюз:</string>
+    <string name="strongswan_profile_vpn_type_label">Тип:</string>
+    <string name="strongswan_profile_username_label">Логін:</string>
+    <string name="strongswan_profile_password_label">Пароль:</string>
+    <string name="strongswan_profile_password_hint">(запитати якщо потрібно)</string>
+    <string name="strongswan_profile_user_certificate_label">Сертифікат користувача:</string>
+    <string name="strongswan_profile_user_select_certificate_label">Виберіть сертифікат користувача</string>
+    <string name="strongswan_profile_user_select_certificate">Вибрати спеціальний сертифікат користувача</string>
+    <string name="strongswan_profile_ca_label">Сертифікат CA:</string>
+    <string name="strongswan_profile_ca_auto_label">Вибрати автоматично</string>
+    <string name="strongswan_profile_ca_select_certificate_label">Вибрати сертифікат CA</string>
+    <string name="strongswan_profile_ca_select_certificate">Вибрати спеціальний сертифікат CA</string>
+    <!-- Warnings/Notifications in the details view -->
+    <string name="strongswan_alert_text_no_input_gateway">Введіть адресу шлюза тут</string>
+    <string name="strongswan_alert_text_no_input_username">Введіть ім\'я користувача тут</string>
+    <string name="strongswan_alert_text_nocertfound_title">Не вибрано сертифікат CA</string>
+    <string name="strongswan_alert_text_nocertfound">Будь ласка виберіть один <i>Вибрати автоматично</i></string>
+    <string name="strongswan_tnc_notice_title">EAP-TNC may affect your privacy</string>
+    <string name="strongswan_tnc_notice_subtitle">Device data is sent to the gateway operator</string>
+    <string name="strongswan_tnc_notice_details">&lt;p>Trusted Network Connect (TNC) allows gateway operators to assess the health of a client device.&lt;/p>&lt;p>For that purpose the gateway operator may request data such as a unique identifier, a list of installed packages, system settings, or cryptographic checksums of files.&lt;/p>&lt;b>Any data will be sent only after verifying the gateway\'s identity.&lt;/b></string>
+
+    <!-- Trusted certificate selection -->
+    <string name="strongswan_trusted_certs_title">Сертифікати CA</string>
+    <string name="strongswan_no_certificates">Немає сертифікатів</string>
+    <string name="strongswan_reload_trusted_certs">Перезавантажити CA сертифікати</string>
+    <string name="strongswan_system_tab">Система</string>
+    <string name="strongswan_user_tab">Користувач</string>
+    <string name="strongswan_local_tab">Imported</string>
+    <string name="strongswan_delete_certificate_question">Delete certificate?</string>
+    <string name="strongswan_delete_certificate">The certificate will be permanently removed!</string>
+    <string name="strongswan_import_certificate">Import certificate</string>
+    <string name="strongswan_cert_imported_successfully">Certificate successfully imported</string>
+    <string name="strongswan_cert_import_failed">Failed to import certificate</string>
+
+    <!-- VPN state fragment -->
+    <string name="strongswan_state_label">Статус:</string>
+    <string name="strongswan_profile_label">Профіль:</string>
+    <string name="strongswan_disconnect">Роз\'єднати</string>
+    <string name="strongswan_state_connecting">Підключення&#8230;</string>
+    <string name="strongswan_state_connected">Підключений</string>
+    <string name="strongswan_state_disconnecting">Роз\'єднання&#8230;</string>
+    <string name="strongswan_state_disabled">Немає активних VPN</string>
+    <string name="strongswan_state_error">Помилка</string>
+
+    <!-- IMC state fragment -->
+    <string name="strongswan_imc_state_label">Assessment:</string>
+    <string name="strongswan_imc_state_isolate">Restricted</string>
+    <string name="strongswan_imc_state_block">Failed</string>
+    <string name="strongswan_show_remediation_instructions">View remediation instructions</string>
+
+    <!-- Remediation instructions -->
+    <string name="strongswan_remediation_instructions_title">Remediation instructions</string>
+
+    <!-- Dialogs -->
+    <string name="strongswan_login_title">Введіть пароль для з\'єднання</string>
+    <string name="strongswan_login_confirm">Підключити</string>
+    <string name="strongswan_error_introduction">Помилка підлючення VPN:</string>
+    <string name="strongswan_error_lookup_failed">Помилка пошуку адреси шлюза.</string>
+    <string name="strongswan_error_unreachable">Немає зв\'язку зі шлюзом.</string>
+    <string name="strongswan_error_peer_auth_failed">Помилка перевірки данних аутентифікації шлюза.</string>
+    <string name="strongswan_error_auth_failed">Помилка аутентифікації користувача.</string>
+    <string name="strongswan_error_assessment_failed">Security assessment failed.</string>
+    <string name="strongswan_error_generic">Невідома помилка під час підключення.</string>
+    <string name="strongswan_connecting_title">Підключення: %1$s</string>
+    <string name="strongswan_connecting_message">Підключення VPN з \""%1$s\".</string>
+    <string name="strongswan_vpn_connected">VPN підключено</string>
+    <string name="strongswan_vpn_profile_connected">Цей VPN профіль зараз підключений!</string>
+    <string name="strongswan_reconnect">Перепідключитися</string>
+    <string name="strongswan_connect_profile_question">Підключити %1$s?</string>
+    <string name="strongswan_replaces_active_connection">Ця дія замінить ваше поточне VPN з\'єднання!</string>
+    <string name="strongswan_connect">Підключити</string>
+
+</resources>
+

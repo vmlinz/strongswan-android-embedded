@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2012-2013 Tobias Brunner
+    Copyright (C) 2012 Giuliano Grassi
+    Copyright (C) 2012 Ralf Sager
+    Hochschule fuer Technik Rapperswil
+
+    This program is free software; you can redistribute it and/or modify it
+    under the terms of the GNU General Public License as published by the
+    Free Software Foundation; either version 2 of the License, or (at your
+    option) any later version.  See <http://www.fsf.org/copyleft/gpl.txt>.
+
+    This program is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+    or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+    for more details.
+-->
+<resources>
+
+    <!-- Application -->
+    <string name="strongswan_app_name">strongSwan VPN Client</string>
+    <string name="strongswan_main_activity_name">strongSwan</string>
+    <string name="strongswan_show_log">View log</string>
+    <string name="strongswan_search">Search</string>
+    <string name="strongswan_vpn_not_supported_title">VPN not supported</string>
+    <string name="strongswan_vpn_not_supported">Your device does not support VPN applications.\nPlease contact the manufacturer.</string>
+    <string name="strongswan_vpn_not_supported_during_lockdown">VPN connections are not supported in lockdown mode.</string>
+    <string name="strongswan_loading">Loading&#8230;</string>
+    <string name="strongswan_profile_not_found">Profile not found</string>
+    <string name="strongswan_strongswan_shortcut">strongSwan shortcut</string>
+
+    <!-- Log view -->
+    <string name="strongswan_log_title">Log</string>
+    <string name="strongswan_send_log">Send log file</string>
+    <string name="strongswan_empty_log">Log file is empty</string>
+    <string name="strongswan_log_mail_subject">strongSwan %1$s Log File</string>
+
+    <!-- VPN profile list -->
+    <string name="strongswan_no_profiles">No VPN profiles.</string>
+    <string name="strongswan_add_profile">Add VPN profile</string>
+    <string name="strongswan_edit_profile">Edit</string>
+    <string name="strongswan_delete_profile">Delete</string>
+    <string name="strongswan_select_profiles">Select profiles</string>
+    <string name="strongswan_profiles_deleted">Selected profiles deleted</string>
+    <string name="strongswan_no_profile_selected">No profile selected</string>
+    <string name="strongswan_one_profile_selected">One profile selected</string>
+    <string name="strongswan_x_profiles_selected">%1$d profiles selected"</string>
+
+    <!-- VPN profile details -->
+    <string name="strongswan_profile_edit_save">Save</string>
+    <string name="strongswan_profile_edit_cancel">Cancel</string>
+    <string name="strongswan_profile_name_label">Profile Name:</string>
+    <string name="strongswan_profile_name_hint">(use gateway address)</string>
+    <string name="strongswan_profile_gateway_label">Gateway:</string>
+    <string name="strongswan_profile_vpn_type_label">Type:</string>
+    <string name="strongswan_profile_username_label">Username:</string>
+    <string name="strongswan_profile_password_label">Password:</string>
+    <string name="strongswan_profile_password_hint">(prompt when needed)</string>
+    <string name="strongswan_profile_user_certificate_label">User certificate:</string>
+    <string name="strongswan_profile_user_select_certificate_label">Select user certificate</string>
+    <string name="strongswan_profile_user_select_certificate">Select a specific user certificate</string>
+    <string name="strongswan_profile_ca_label">CA certificate:</string>
+    <string name="strongswan_profile_ca_auto_label">Select automatically</string>
+    <string name="strongswan_profile_ca_select_certificate_label">Select CA certificate</string>
+    <string name="strongswan_profile_ca_select_certificate">Select a specific CA certificate</string>
+    <!-- Warnings/Notifications in the details view -->
+    <string name="strongswan_alert_text_no_input_gateway">Please enter the gateway address here</string>
+    <string name="strongswan_alert_text_no_input_username">Please enter your username here</string>
+    <string name="strongswan_alert_text_nocertfound_title">No CA certificate selected</string>
+    <string name="strongswan_alert_text_nocertfound">Please select one or activate <i>Select automatically</i></string>
+    <string name="strongswan_tnc_notice_title">EAP-TNC may affect your privacy</string>
+    <string name="strongswan_tnc_notice_subtitle">Device data is sent to the gateway operator</string>
+    <string name="strongswan_tnc_notice_details">&lt;p>Trusted Network Connect (TNC) allows gateway operators to assess the health of a client device.&lt;/p>&lt;p>For that purpose the gateway operator may request data such as a unique identifier, a list of installed packages, system settings, or cryptographic checksums of files.&lt;/p>&lt;b>Any data will be sent only after verifying the gateway\'s identity.&lt;/b></string>
+
+    <!-- Trusted certificate selection -->
+    <string name="strongswan_trusted_certs_title">CA certificates</string>
+    <string name="strongswan_no_certificates">No certificates</string>
+    <string name="strongswan_reload_trusted_certs">Reload CA certificates</string>
+    <string name="strongswan_system_tab">System</string>
+    <string name="strongswan_user_tab">User</string>
+    <string name="strongswan_local_tab">Imported</string>
+    <string name="strongswan_delete_certificate_question">Delete certificate?</string>
+    <string name="strongswan_delete_certificate">The certificate will be permanently removed!</string>
+    <string name="strongswan_import_certificate">Import certificate</string>
+    <string name="strongswan_cert_imported_successfully">Certificate successfully imported</string>
+    <string name="strongswan_cert_import_failed">Failed to import certificate</string>
+
+    <!-- VPN state fragment -->
+    <string name="strongswan_state_label">Status:</string>
+    <string name="strongswan_profile_label">Profile:</string>
+    <string name="strongswan_disconnect">Disconnect</string>
+    <string name="strongswan_state_connecting">Connecting&#8230;</string>
+    <string name="strongswan_state_connected">Connected</string>
+    <string name="strongswan_state_disconnecting">Disconnecting&#8230;</string>
+    <string name="strongswan_state_disabled">No active VPN</string>
+    <string name="strongswan_state_error">Error</string>
+
+    <!-- IMC state fragment -->
+    <string name="strongswan_imc_state_label">Assessment:</string>
+    <string name="strongswan_imc_state_isolate">Restricted</string>
+    <string name="strongswan_imc_state_block">Failed</string>
+    <string name="strongswan_show_remediation_instructions">View remediation instructions</string>
+
+    <!-- Remediation instructions -->
+    <string name="strongswan_remediation_instructions_title">Remediation instructions</string>
+
+    <!-- Dialogs -->
+    <string name="strongswan_login_title">Enter password to connect</string>
+    <string name="strongswan_login_confirm">Connect</string>
+    <string name="strongswan_error_introduction">Failed to establish VPN:</string>
+    <string name="strongswan_error_lookup_failed">Gateway address lookup failed.</string>
+    <string name="strongswan_error_unreachable">Gateway is unreachable.</string>
+    <string name="strongswan_error_peer_auth_failed">Verifying gateway authentication failed.</string>
+    <string name="strongswan_error_auth_failed">User authentication failed.</string>
+    <string name="strongswan_error_assessment_failed">Security assessment failed.</string>
+    <string name="strongswan_error_generic">Unspecified failure while connecting.</string>
+    <string name="strongswan_connecting_title">Connecting: %1$s</string>
+    <string name="strongswan_connecting_message">Establishing VPN with \""%1$s\".</string>
+    <string name="strongswan_vpn_connected">VPN connected</string>
+    <string name="strongswan_vpn_profile_connected">This VPN profile is currently connected!</string>
+    <string name="strongswan_reconnect">Reconnect</string>
+    <string name="strongswan_connect_profile_question">Connect %1$s?</string>
+    <string name="strongswan_replaces_active_connection">This will replace your active VPN connection!</string>
+    <string name="strongswan_connect">Connect</string>
+
+</resources>
