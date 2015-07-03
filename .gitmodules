@@ -1,0 +1,3 @@
+[submodule "strongswan-android"]
+	path = strongswan-android
+	url = git@github.com:vmlinz/strongswan-android.git
