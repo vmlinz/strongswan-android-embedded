@@ -13,8 +13,6 @@
     for more details.
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:strongswan="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -24,8 +22,6 @@
         class="org.strongswan.android.ui.VpnProfileListFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        strongswan:read_only="true"
-        tools:ignore="MissingPrefix" />
+        android:layout_weight="1"/>
 
 </LinearLayout>

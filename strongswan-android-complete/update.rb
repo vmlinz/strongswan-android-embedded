@@ -5,6 +5,7 @@ PREFIX = 'strongswan'
 `mkdir -p src/main`
 `cp ../strongswan-android/app/build.gradle .`
 `cp -r ../strongswan-android/app/src/main/{AndroidManifest.xml,java,jniLibs,res} src/main`
+`rm -fr src/main/java/org/strongswan/android/ui/`
 
 `git --git-dir="../strongswan-android/.git" describe HEAD > strongswan-android-version`
 
